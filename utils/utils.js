@@ -12,6 +12,18 @@ function getInputUnfiltered() {
   return puzzleString;
 }
 
+function getExampleInput() {
+  let puzzleString = getExampleInputUnfiltered();
+  let puzzleInput = puzzleString.split(/\r?\n/);
+  let puzzleInputFiltered = puzzleInput.filter((elm) => elm);
+  return puzzleInputFiltered;
+}
+
+function getExampleInputUnfiltered() {
+  let puzzleString = fs.readFileSync("example_input.txt").toString();
+  return puzzleString;
+}
+
 function logOutput(year, day, part, output1, output2) {
   if (output2 !== undefined)
     console.log(
@@ -30,4 +42,4 @@ function drawMatrix(input, Matrix) {
   }
 }
 
-export { getInput, getInputUnfiltered, logOutput, drawMatrix };
+export { getInput, getInputUnfiltered, getExampleInput, getExampleInputUnfiltered, logOutput, drawMatrix };
