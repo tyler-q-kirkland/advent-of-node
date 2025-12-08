@@ -6,6 +6,6 @@ Note: Puzzle inputs are not stored in this repo, need to be placed in local fold
 
 | Year  | Days | Stars |
 | ------------- | ------------- | ------------- |
-| 2025  | ![2025 Days Completed](https://img.shields.io/badge/days%20completed-0-red)  | ![2024 Stars](https://img.shields.io/badge/stars%20⭐-39-yellow) | 
+| 2025  | ![2025 Days Completed](https://img.shields.io/badge/days%20completed-0-red)  | ![2025 Stars](https://img.shields.io/badge/stars%20⭐-2-yellow) | 
 | 2024  | ![2024 Days Completed](https://img.shields.io/badge/days%20completed-17-red)  | ![2024 Stars](https://img.shields.io/badge/stars%20⭐-39-yellow) | 
 | 2023  | ![2023 Days Completed](https://img.shields.io/badge/days%20completed-3-red)  | ![2023 Stars](https://img.shields.io/badge/stars%20⭐-7-yellow) |
