@@ -21,15 +21,11 @@ let sum = 0;
     sum += 1;
   }
 
-
   if ( position > 99 ) {
-  sum += Math.abs(parseInt(position / 100, 10));
-  position = position % 100;
+    sum += Math.abs(parseInt(position / 100, 10));
+    position = position % 100;
   }  
 
-
  }
-
-  console.log(position)
 
 utils.logOutput(2025, 1, "B", sum);
